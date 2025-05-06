@@ -29,7 +29,8 @@ jobs:
 
     - name: Run API tests and generate HTML report
       run: |
-        pytest --html=report.html --maxfail=1 --disable-warnings  # Run the tests and generate the HTML report
+        export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+        pytest --html=report.html --maxfail=1 --disable-warnings
 
     - name: Upload HTML Report as Artifact
       uses: actions/upload-artifact@v4
