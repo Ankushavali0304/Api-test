@@ -2,7 +2,7 @@ name: Run API Tests and Generate HTML Report
 
 on:
   schedule:
-    - cron: '45 10 * * *'  # This schedules the workflow to run daily at 10:30 AM UTC (4:00 PM IST)
+    - cron: '45 10 * * *'  # This schedules the workflow to run daily at 10:45 AM UTC (4:15 PM IST)
   push:
     branches:
       - main  # This triggers the workflow on push to the 'main' branch
@@ -30,6 +30,10 @@ jobs:
     - name: Run API tests and generate HTML report
       run: |
         pytest --html=report.html --maxfail=1 --disable-warnings  # Run the tests and generate the HTML report
+
+    - name: List files in the directory
+      run: |
+        ls -alh  # Check if report.html exists
 
     - name: Upload HTML Report as Artifact
       uses: actions/upload-artifact@v2  # Upload artifact action
