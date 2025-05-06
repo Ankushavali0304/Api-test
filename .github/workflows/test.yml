@@ -2,7 +2,7 @@ name: Run API Tests and Generate HTML Report
 
 on:
   schedule:
-    - cron: '50 13 * * *'  # This schedules the workflow to run daily at 11:45 AM UTC (5:15 PM IST)
+    - cron: '50 13 * * *'
   push:
     branches:
       - main  # This triggers the workflow on push to the 'main' branch
