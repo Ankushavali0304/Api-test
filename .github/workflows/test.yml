@@ -36,7 +36,8 @@ jobs:
         ls -alh  # Check if report.html exists
 
     - name: Upload HTML Report as Artifact
-      uses: actions/upload-artifact@v2  # Upload artifact action
+      uses: actions/upload-artifact@v2.3.1
       with:
-        name: api-test-report  # Name of the artifact
-        path: report.html  # Path to the generated HTML report
+        name: api-test-report
+        path: report.html
+
