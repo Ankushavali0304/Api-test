@@ -2,7 +2,7 @@ name: Run API Tests and Generate HTML Report
 
 on:
   schedule:
-    - cron: '50 13 * * *'
+    - cron: '50 13 * * *' #schedule job
   push:
     branches:
       - main  # This triggers the workflow on push to the 'main' branch
