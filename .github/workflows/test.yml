@@ -1,0 +1,32 @@
+name: Run API Tests and Generate HTML Report
+
+on:
+  schedule:
+    - cron: '30 10 * * *'  # This schedules the workflow to run daily at 10:30 AM UTC (4:00 PM IST)
+  push:
+    branches:
+      - main  # This triggers the workflow on push to the 'main' branch
+  pull_request:
+    branches:
+      - main  # This triggers the workflow on pull request to 'main' branch
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest  # This defines the environment to run the tests on
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2  # Checkout the code from your repository
+
+    - name: Set up Python
+      uses: actions/setup-python@v2  # Set up Python
+      with:
+        python-version: 3.8  # You can use the version that suits your project
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt  # Install all dependencies from requirements.txt
+
+    - name: Run API tests and generate HTML report
+      run: |
+        pytest --html=report.html --maxfail=1 --disable-warnings  # Run the tests and generate the HTML report

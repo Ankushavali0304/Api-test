@@ -1,0 +1,40 @@
+name: Run API Tests and Send Report
+
+on:
+  push:
+    branches:
+      - main  # This will trigger on push to the 'main' branch
+  pull_request:
+    branches:
+      - main  # This will trigger on pull requests to the 'main' branch
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest  # This defines the environment to run the tests on
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2  # Checkout the code from your repository
+
+    - name: Set up Python
+      uses: actions/setup-python@v2  # Set up Python
+      with:
+        python-version: 3.8  # You can use the version that suits your project
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt  # Install all the dependencies
+
+    - name: Run API tests and generate HTML report
+      run: |
+        pytest --html=report.html --maxfail=1 --disable-warnings  # Run the tests and generate the HTML report
+
+    - name: Upload report as artifact (optional)
+      uses: actions/upload-artifact@v2
+      with:
+        name: api-test-report
+        path: report.html  # Upload the report as an artifact in case you want to download it later
+
+    - name: Send the report via email
+      run: |
+        python send_report.py  # This runs your Python script that sends the email with the report
