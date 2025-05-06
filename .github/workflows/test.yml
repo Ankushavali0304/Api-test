@@ -32,7 +32,7 @@ jobs:
         pytest --html=report.html --maxfail=1 --disable-warnings  # Run the tests and generate the HTML report
 
     - name: Upload HTML Report as Artifact
-      uses: actions/upload-artifact@v2  # Try v2.3.1 or v3 (latest stable)
+      uses: actions/upload-artifact@v4
       with:
         name: api-test-report  # Name of the artifact
         path: report.html  # Path to the generated HTML report
