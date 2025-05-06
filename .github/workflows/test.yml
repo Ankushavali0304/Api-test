@@ -30,3 +30,9 @@ jobs:
     - name: Run API tests and generate HTML report
       run: |
         pytest --html=report.html --maxfail=1 --disable-warnings  # Run the tests and generate the HTML report
+
+    - name: Upload HTML Report as Artifact
+      uses: actions/upload-artifact@v2  # Upload artifact action
+      with:
+        name: api-test-report  # Name of the artifact
+        path: report.html  # Path to the generated HTML report
