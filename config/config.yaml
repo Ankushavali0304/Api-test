@@ -1,4 +1,6 @@
-base_url: "https://datom.stryv.ai/"
-#base_url2: "https://datom.stryv.ai/job_executor/api/"
-#base_url3: "https://datom.stryv.ai/metadata-service/api/v1/"
+base_url: "https://datom.stryv.ai/interaction-manager/api/v1/"
+base_url1: "https://datom.stryv.ai/job_executor/api/"
+base_url2: "https://datom.stryv.ai/metadata-service/api/v1/"
+base_url3: "https://datom.stryv.ai/design-manager/api/v1/"
+
 auth_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijp7InVzZXJfaWQiOiIxIiwidXNlcl9ubSI6ImpvaG5fZG9lIiwiZW1haWwiOiJqb2huLmRvZUBleGFtcGxlLmNvbSIsImZpcnN0X25tIjoiSm9obiIsImxhc3Rfbm0iOiJEb2UiLCJzdGF0dXMiOiJBY3RpdmUiLCJsYXN0X2xvZ2luIjoiMjAyNC0wMy0wMVQxMDowMDowMC4wMDBaIiwiY3JlYXRlZF90cyI6IjIwMjQtMDItMDFUMTI6MDA6MDAuMDAwWiIsInVwZGF0ZWRfdHMiOiIyMDI0LTAzLTAxVDEwOjAwOjAwLjAwMFoiLCJkZWxldGVfaW5kIjoiTiIsInBhc3N3b3JkIjoid2VsY29tZTIwMjQifSwiaWF0IjoxNzQ1OTA3NTc3LCJleHAiOjE3NDU5OTM5Nzd9._bsnub0eJfRU6zEEc8F1IFwvbtcfk-lKGt6feAYELsw"

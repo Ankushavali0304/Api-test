@@ -2,8 +2,11 @@ from logs.logger import logger
 from utils.validators import assert_status_code, assert_json_keys, assert_json_values
 
 
-def test_get_job_by_id(api):
-    response = api.get("design-manager/api/v1/connection/getConnectionByConnectionId/3")
+def test_get_job_by_id(api_design_manager):
+
+    endpoint = "connection/getConnectionByConnectionId/3"
+
+    response = api_design_manager.get(endpoint)
 
     try:
         assert_status_code(response, 200)
