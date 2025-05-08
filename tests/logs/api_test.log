@@ -1,0 +1,82 @@
+2025-05-08 14:54:53,715 - logs.logger - DEBUG - This is a debug message
+2025-05-08 14:54:53,715 - logs.logger - INFO - This is an info message
+2025-05-08 14:54:53,715 - logs.logger - WARNING - This is a warning message
+2025-05-08 14:54:53,715 - logs.logger - ERROR - This is an error message
+2025-05-08 14:54:53,715 - logs.logger - CRITICAL - This is a critical message
+2025-05-08 15:02:46,814 - logs.logger - DEBUG - This is a debug message
+2025-05-08 15:02:46,814 - logs.logger - INFO - This is an info message
+2025-05-08 15:02:46,814 - logs.logger - WARNING - This is a warning message
+2025-05-08 15:02:46,814 - logs.logger - ERROR - This is an error message
+2025-05-08 15:02:46,814 - logs.logger - CRITICAL - This is a critical message
+2025-05-08 15:03:11,627 - logs.logger - DEBUG - This is a debug message
+2025-05-08 15:03:11,627 - logs.logger - INFO - This is an info message
+2025-05-08 15:03:11,627 - logs.logger - WARNING - This is a warning message
+2025-05-08 15:03:11,627 - logs.logger - ERROR - This is an error message
+2025-05-08 15:03:11,627 - logs.logger - CRITICAL - This is a critical message
+2025-05-08 15:03:46,772 - logs.logger - DEBUG - This is a debug message
+2025-05-08 15:03:46,772 - logs.logger - INFO - This is an info message
+2025-05-08 15:03:46,773 - logs.logger - WARNING - This is a warning message
+2025-05-08 15:03:46,773 - logs.logger - ERROR - This is an error message
+2025-05-08 15:03:46,773 - logs.logger - CRITICAL - This is a critical message
+2025-05-08 15:09:58,888 - logs.logger - DEBUG - This is a debug message
+2025-05-08 15:09:58,889 - logs.logger - INFO - This is an info message
+2025-05-08 15:09:58,890 - logs.logger - WARNING - This is a warning message
+2025-05-08 15:09:58,891 - logs.logger - ERROR - This is an error message
+2025-05-08 15:09:58,891 - logs.logger - CRITICAL - This is a critical message
+2025-05-08 15:12:15,400 - logs.logger - DEBUG - This is a debug message
+2025-05-08 15:12:15,400 - logs.logger - INFO - This is an info message
+2025-05-08 15:12:15,401 - logs.logger - WARNING - This is a warning message
+2025-05-08 15:12:15,401 - logs.logger - ERROR - This is an error message
+2025-05-08 15:12:15,402 - logs.logger - CRITICAL - This is a critical message
+2025-05-08 15:12:15,514 - logs.logger - ERROR - Test failed due to assertion error: Expected 200, got 404
+2025-05-08 15:13:45,491 - logs.logger - DEBUG - This is a debug message
+2025-05-08 15:13:45,491 - logs.logger - INFO - This is an info message
+2025-05-08 15:13:45,492 - logs.logger - WARNING - This is a warning message
+2025-05-08 15:13:45,492 - logs.logger - ERROR - This is an error message
+2025-05-08 15:13:45,492 - logs.logger - CRITICAL - This is a critical message
+2025-05-08 15:14:35,697 - logs.logger - DEBUG - This is a debug message
+2025-05-08 15:14:35,697 - logs.logger - INFO - This is an info message
+2025-05-08 15:14:35,698 - logs.logger - WARNING - This is a warning message
+2025-05-08 15:14:35,698 - logs.logger - ERROR - This is an error message
+2025-05-08 15:14:35,698 - logs.logger - CRITICAL - This is a critical message
+2025-05-08 15:34:18,128 - logs.logger - DEBUG - This is a debug message
+2025-05-08 15:34:18,128 - logs.logger - INFO - This is an info message
+2025-05-08 15:34:18,128 - logs.logger - WARNING - This is a warning message
+2025-05-08 15:34:18,128 - logs.logger - ERROR - This is an error message
+2025-05-08 15:34:18,128 - logs.logger - CRITICAL - This is a critical message
+2025-05-08 15:35:08,690 - logs.logger - DEBUG - This is a debug message
+2025-05-08 15:35:08,690 - logs.logger - INFO - This is an info message
+2025-05-08 15:35:08,690 - logs.logger - WARNING - This is a warning message
+2025-05-08 15:35:08,690 - logs.logger - ERROR - This is an error message
+2025-05-08 15:35:08,690 - logs.logger - CRITICAL - This is a critical message
+2025-05-08 15:35:09,215 - logs.logger - INFO - API call to https://datom.stryv.ai/interaction-manager/api/v1/user/login successful.
+2025-05-08 15:35:09,216 - logs.logger - DEBUG - Response status: 200, Body: {"message":"Request has been processed successfully.","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijp7InVzZXJfaWQiOiIxIiwidXNlcl9ubSI6ImpvaG5fZG9lIiwiZW1haWwiOiJqb2huLmRvZUBleGFtcGxlLmNvbSIsImZpcnN0X25tIjoiSm9obiIsImxhc3Rfbm0iOiJEb2UiLCJzdGF0dXMiOiJBY3RpdmUiLCJsYXN0X2xvZ2luIjoiMjAyNC0wMy0wMVQxMDowMDowMC4wMDBaIiwiY3JlYXRlZF90cyI6IjIwMjQtMDItMDFUMTI6MDA6MDAuMDAwWiIsInVwZGF0ZWRfdHMiOiIyMDI0LTAzLTAxVDEwOjAwOjAwLjAwMFoiLCJkZWxldGVfaW5kIjoiTiIsInBhc3N3b3JkIjoid2VsY29tZTIwMjQifSwiaWF0IjoxNzQ2Njk4NzI3LCJleHAiOjE3NDY3ODUxMjd9.DXgkKbFnhWy5lLgAHMGMmxgoyPJnZk4L-fB5ugLOmts","user":{"user_id":"1","user_nm":"john_doe","email":"john.doe@example.com","first_nm":"John","last_nm":"Doe","status":"Active","last_login":"2024-03-01T10:00:00.000Z","created_ts":"2024-02-01T12:00:00.000Z","updated_ts":"2024-03-01T10:00:00.000Z","delete_ind":"N","password":"welcome2024"}}}
+2025-05-08 15:44:36,587 - logs.logger - DEBUG - This is a debug message
+2025-05-08 15:44:36,587 - logs.logger - INFO - This is an info message
+2025-05-08 15:44:36,587 - logs.logger - WARNING - This is a warning message
+2025-05-08 15:44:36,587 - logs.logger - ERROR - This is an error message
+2025-05-08 15:44:36,587 - logs.logger - CRITICAL - This is a critical message
+2025-05-08 15:44:36,917 - logs.logger - INFO - API call to https://datom.stryv.ai/interaction-manager/api/v1/user/login successful.
+2025-05-08 15:44:36,917 - logs.logger - DEBUG - Response status: 200, Body: {"message":"Request has been processed successfully.","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijp7InVzZXJfaWQiOiIxIiwidXNlcl9ubSI6ImpvaG5fZG9lIiwiZW1haWwiOiJqb2huLmRvZUBleGFtcGxlLmNvbSIsImZpcnN0X25tIjoiSm9obiIsImxhc3Rfbm0iOiJEb2UiLCJzdGF0dXMiOiJBY3RpdmUiLCJsYXN0X2xvZ2luIjoiMjAyNC0wMy0wMVQxMDowMDowMC4wMDBaIiwiY3JlYXRlZF90cyI6IjIwMjQtMDItMDFUMTI6MDA6MDAuMDAwWiIsInVwZGF0ZWRfdHMiOiIyMDI0LTAzLTAxVDEwOjAwOjAwLjAwMFoiLCJkZWxldGVfaW5kIjoiTiIsInBhc3N3b3JkIjoid2VsY29tZTIwMjQifSwiaWF0IjoxNzQ2Njk5Mjk1LCJleHAiOjE3NDY3ODU2OTV9.LfFPWf4tykJupE4watBg8Q803Mj9DxO2W2PtPsxerds","user":{"user_id":"1","user_nm":"john_doe","email":"john.doe@example.com","first_nm":"John","last_nm":"Doe","status":"Active","last_login":"2024-03-01T10:00:00.000Z","created_ts":"2024-02-01T12:00:00.000Z","updated_ts":"2024-03-01T10:00:00.000Z","delete_ind":"N","password":"welcome2024"}}}
+2025-05-08 15:48:57,822 - logs.logger - DEBUG - This is a debug message
+2025-05-08 15:48:57,822 - logs.logger - INFO - This is an info message
+2025-05-08 15:48:57,822 - logs.logger - WARNING - This is a warning message
+2025-05-08 15:48:57,822 - logs.logger - ERROR - This is an error message
+2025-05-08 15:48:57,822 - logs.logger - CRITICAL - This is a critical message
+2025-05-08 15:48:57,831 - logs.logger - INFO - Starting test: test_get_job_by_id
+2025-05-08 15:48:57,955 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-08 15:48:57,956 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":{"job":[{"created_by_username":"john_doe","updated_by_username":"jane_smith","job_type_nm":"ingestion","job_id":1,"job_nm":"ms sql to snowflake ingestion job","description":"my ms sql to snowflake ingestion job description","job_type_id":1,"created_by":1,"updated_by":2,"version":"","schedule":"","created_ts":"2025-04-09T12:01:37.569Z","updated_ts":"2025-04-09T12:01:37.569Z","load_type_id":null}],"jobKv":{"Source Database":"Microsoft SQL Server","Target Database":"Snowflake","LoadType":"append"},"tasks":[{"task_id":1,"job_id":1,"src_connection_id":1,"tgt_connection_id":3,"task_nm":"users","src_database":"datom_mvp","tgt_database":"DATOM_DEMO","src_schema":"core","tgt_schema":"CORE","src_table":"users","tgt_table":"users","src_location":null,"tgt_location":null,"created_by":1,"updated_by":1,"is_enabled":true,"created_ts":"2025-04-09T12:01:37.863Z","updated_ts":"2025-04-09T12:01:37.863Z"}]}}
+2025-05-08 15:48:57,956 - logs.logger - INFO - 'created_by' key found in the response.
+2025-05-08 15:48:57,956 - logs.logger - INFO - Verified 'job_type_nm' key value is 'ingestion'.
+2025-05-08 15:48:57,957 - logs.logger - INFO - Completed test: test_get_job_by_id
+2025-05-08 15:49:36,130 - logs.logger - DEBUG - This is a debug message
+2025-05-08 15:49:36,131 - logs.logger - INFO - This is an info message
+2025-05-08 15:49:36,131 - logs.logger - WARNING - This is a warning message
+2025-05-08 15:49:36,131 - logs.logger - ERROR - This is an error message
+2025-05-08 15:49:36,131 - logs.logger - CRITICAL - This is a critical message
+2025-05-08 15:49:36,141 - logs.logger - INFO - Starting test: test_get_job_by_id
+2025-05-08 15:49:36,259 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-08 15:49:36,260 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":{"job":[{"created_by_username":"john_doe","updated_by_username":"jane_smith","job_type_nm":"ingestion","job_id":1,"job_nm":"ms sql to snowflake ingestion job","description":"my ms sql to snowflake ingestion job description","job_type_id":1,"created_by":1,"updated_by":2,"version":"","schedule":"","created_ts":"2025-04-09T12:01:37.569Z","updated_ts":"2025-04-09T12:01:37.569Z","load_type_id":null}],"jobKv":{"Source Database":"Microsoft SQL Server","Target Database":"Snowflake","LoadType":"append"},"tasks":[{"task_id":1,"job_id":1,"src_connection_id":1,"tgt_connection_id":3,"task_nm":"users","src_database":"datom_mvp","tgt_database":"DATOM_DEMO","src_schema":"core","tgt_schema":"CORE","src_table":"users","tgt_table":"users","src_location":null,"tgt_location":null,"created_by":1,"updated_by":1,"is_enabled":true,"created_ts":"2025-04-09T12:01:37.863Z","updated_ts":"2025-04-09T12:01:37.863Z"}]}}
+2025-05-08 15:49:36,260 - logs.logger - INFO - 'created_by' key found in the response.
+2025-05-08 15:49:36,260 - logs.logger - INFO - Verified 'job_type_nm' key value is 'ingestion'.
+2025-05-08 15:49:36,260 - logs.logger - INFO - Completed test: test_get_job_by_id
