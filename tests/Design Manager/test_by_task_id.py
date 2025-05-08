@@ -2,8 +2,11 @@ from utils.validators import assert_status_code, assert_json_keys, assert_json_v
 from logs.logger import logger
 
 
-def test_get_job_by_id(api):
-    response = api.get("design-manager/api/v1/job/TaskColumnByTaskId/1")
+def test_get_job_by_id(api_design_manager):
+
+    endpoint = "job/TaskColumnByTaskId/1"
+
+    response = api_design_manager.get(endpoint)
 
     try:
         assert_status_code(response, 200)
