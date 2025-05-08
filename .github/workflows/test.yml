@@ -2,7 +2,7 @@ name: Run API Tests and Generate HTML Report
 
 on:
   schedule:
-    - cron: '50 13 * * *' #schedule job
+    - cron: '50 13 * * *'  # This schedules the workflow to run daily at 11:45 AM UTC (5:15 PM IST)
   push:
     branches:
       - main  # This triggers the workflow on push to the 'main' branch
@@ -35,5 +35,5 @@ jobs:
     - name: Upload HTML Report as Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: api-test-report
-        path: report.html
+        name: api-test-report  # Name of the artifact
+        path: report.html  # Path to the generated HTML report
