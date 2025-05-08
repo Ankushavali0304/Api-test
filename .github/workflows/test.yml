@@ -31,6 +31,7 @@ jobs:
       run: |
         export PYTHONPATH="${PYTHONPATH}:$(pwd)"
         pytest --html=Api-test/reports/report.html --maxfail=1 --disable-warnings
+        
 
     - name: Upload HTML Report as Artifact
       uses: actions/upload-artifact@v4
