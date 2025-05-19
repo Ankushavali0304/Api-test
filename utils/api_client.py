@@ -19,13 +19,17 @@ class APIClient:
             self.session.headers["Authorization"] = f"Bearer {auth_token}"
 
     def get(self, endpoint, params=None, headers=None):
-        return self.session.get(f"{self.base_url}{endpoint}", params=params, headers=headers)
+        url = f"{self.base_url.rstrip('/')}/{endpoint.lstrip('/')}"
+        return self.session.get(url, params=params, headers=headers)
 
     def post(self, endpoint, data=None, json=None, headers=None):
-        return self.session.post(f"{self.base_url}{endpoint}", data=data, json=json, headers=headers)
+        url = f"{self.base_url.rstrip('/')}/{endpoint.lstrip('/')}"
+        return self.session.post(url, data=data, json=json, headers=headers)
 
     def put(self, endpoint, data=None, json=None, headers=None):
-        return self.session.put(f"{self.base_url}{endpoint}", data=data, json=json, headers=headers)
+        url = f"{self.base_url.rstrip('/')}/{endpoint.lstrip('/')}"
+        return self.session.put(url, data=data, json=json, headers=headers)
 
     def delete(self, endpoint, headers=None):
-        return self.session.delete(f"{self.base_url}{endpoint}", headers=headers)
+        url = f"{self.base_url.rstrip('/')}/{endpoint.lstrip('/')}"
+        return self.session.delete(url, headers=headers)
