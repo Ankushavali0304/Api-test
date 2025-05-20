@@ -35,8 +35,12 @@ def fixture_clients():
 
 
 def run_test_func(test_func, fixture_clients):
+    module_name = test_func.__module__
+    if module_name.endswith('.run'):
+        module_name = module_name.rsplit('.run', 1)[0]
+
     result = {
-        "test_case": f"{test_func.__module__.removesuffix('.run')}.{test_func.__name__}",
+        "test_case": f"{test_func.module_name}.{test_func.__name__}",
         "status_code": "N/A",
         "result": "PASS",
         "response": "N/A",
