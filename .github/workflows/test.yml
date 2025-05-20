@@ -1,39 +1,47 @@
-name: Run API Tests and Generate HTML Report
+name: Run API Tests and Generate Report
 
 on:
   schedule:
-    - cron: '50 13 * * *'  # This schedules the workflow to run daily at 11:45 AM UTC (5:15 PM IST)
+    - cron: '50 13 * * *'  # Daily at 7:20 PM IST
   push:
     branches:
-      - main  # This triggers the workflow on push to the 'main' branch
+      - main
   pull_request:
     branches:
-      - main  # This triggers the workflow on pull request to 'main' branch
+      - main
 
 jobs:
   run-tests:
-    runs-on: ubuntu-latest  # This defines the environment to run the tests on
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2  # Checkout the code from your repository
+      uses: actions/checkout@v2
 
     - name: Set up Python
-      uses: actions/setup-python@v2  # Set up Python
+      uses: actions/setup-python@v2
       with:
-        python-version: 3.8  # You can use the version that suits your project
+        python-version: 3.8
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt  # Install all dependencies from requirements.txt
+        pip install -r requirements.txt
 
-    - name: Run API tests and generate HTML report
+    - name: Run API tests and generate report
       run: |
         export PYTHONPATH="${PYTHONPATH}:$(pwd)"
-        pytest --html=report.html --maxfail=1 --disable-warnings
+        python path/to/your_main_test_script.py  # replace with the actual path, e.g., `tests/test_main.py`
 
-    - name: Upload HTML Report as Artifact
+    - name: Upload JSON Report
       uses: actions/upload-artifact@v4
       with:
-        name: api-test-report  # Name of the artifact
-        path: report.html  # Path to the generated HTML report
+        name: test-results-json
+        path: test_results.json
+
+    # Optional: Upload HTML report if you generate one separately
+    - name: Upload HTML Report (Optional)
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: api-test-report
+        path: report.html
