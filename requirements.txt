@@ -3,3 +3,5 @@ requests
 pydantic
 pyyaml
 pytest-html
+pandas
+python-dotenv

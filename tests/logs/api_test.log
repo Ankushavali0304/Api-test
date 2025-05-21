@@ -80,3 +80,166 @@
 2025-05-08 15:49:36,260 - logs.logger - INFO - 'created_by' key found in the response.
 2025-05-08 15:49:36,260 - logs.logger - INFO - Verified 'job_type_nm' key value is 'ingestion'.
 2025-05-08 15:49:36,260 - logs.logger - INFO - Completed test: test_get_job_by_id
+2025-05-12 16:32:52,788 - logs.logger - DEBUG - This is a debug message
+2025-05-12 16:32:52,788 - logs.logger - INFO - This is an info message
+2025-05-12 16:32:52,789 - logs.logger - WARNING - This is a warning message
+2025-05-12 16:32:52,789 - logs.logger - ERROR - This is an error message
+2025-05-12 16:32:52,789 - logs.logger - CRITICAL - This is a critical message
+2025-05-12 16:32:53,028 - logs.logger - ERROR - Test failed due to assertion error: Expected 200, got 404
+2025-05-12 16:38:07,499 - logs.logger - DEBUG - This is a debug message
+2025-05-12 16:38:07,499 - logs.logger - INFO - This is an info message
+2025-05-12 16:38:07,499 - logs.logger - WARNING - This is a warning message
+2025-05-12 16:38:07,499 - logs.logger - ERROR - This is an error message
+2025-05-12 16:38:07,499 - logs.logger - CRITICAL - This is a critical message
+2025-05-12 16:38:07,616 - logs.logger - ERROR - Test failed due to assertion error: Expected 200, got 404
+2025-05-12 16:39:18,331 - logs.logger - DEBUG - This is a debug message
+2025-05-12 16:39:18,331 - logs.logger - INFO - This is an info message
+2025-05-12 16:39:18,331 - logs.logger - WARNING - This is a warning message
+2025-05-12 16:39:18,331 - logs.logger - ERROR - This is an error message
+2025-05-12 16:39:18,332 - logs.logger - CRITICAL - This is a critical message
+2025-05-12 16:39:18,455 - logs.logger - ERROR - Test failed due to assertion error: Expected 200, got 404
+2025-05-12 17:33:52,249 - logs.logger - DEBUG - This is a debug message
+2025-05-12 17:33:52,250 - logs.logger - INFO - This is an info message
+2025-05-12 17:33:52,250 - logs.logger - WARNING - This is a warning message
+2025-05-12 17:33:52,250 - logs.logger - ERROR - This is an error message
+2025-05-12 17:33:52,250 - logs.logger - CRITICAL - This is a critical message
+2025-05-12 17:33:52,442 - logs.logger - ERROR - Test failed due to assertion error: Expected 200, got 404
+2025-05-12 17:34:30,169 - logs.logger - DEBUG - This is a debug message
+2025-05-12 17:34:30,169 - logs.logger - INFO - This is an info message
+2025-05-12 17:34:30,175 - logs.logger - WARNING - This is a warning message
+2025-05-12 17:34:30,175 - logs.logger - ERROR - This is an error message
+2025-05-12 17:34:30,175 - logs.logger - CRITICAL - This is a critical message
+2025-05-12 17:45:06,148 - logs.logger - DEBUG - This is a debug message
+2025-05-12 17:45:06,149 - logs.logger - INFO - This is an info message
+2025-05-12 17:45:06,149 - logs.logger - WARNING - This is a warning message
+2025-05-12 17:45:06,149 - logs.logger - ERROR - This is an error message
+2025-05-12 17:45:06,149 - logs.logger - CRITICAL - This is a critical message
+2025-05-12 17:45:06,263 - logs.logger - ERROR - Test failed due to assertion error: Expected 200, got 404
+2025-05-13 11:21:17,836 - logs.logger - DEBUG - This is a debug message
+2025-05-13 11:21:17,836 - logs.logger - INFO - This is an info message
+2025-05-13 11:21:17,836 - logs.logger - WARNING - This is a warning message
+2025-05-13 11:21:17,836 - logs.logger - ERROR - This is an error message
+2025-05-13 11:21:17,837 - logs.logger - CRITICAL - This is a critical message
+2025-05-13 11:21:18,025 - logs.logger - ERROR - Test failed due to assertion error: Expected 200, got 404
+2025-05-13 11:22:46,351 - logs.logger - DEBUG - This is a debug message
+2025-05-13 11:22:46,351 - logs.logger - INFO - This is an info message
+2025-05-13 11:22:46,351 - logs.logger - WARNING - This is a warning message
+2025-05-13 11:22:46,351 - logs.logger - ERROR - This is an error message
+2025-05-13 11:22:46,351 - logs.logger - CRITICAL - This is a critical message
+2025-05-13 11:22:46,364 - logs.logger - INFO - Starting test: test_get_job_by_id
+2025-05-13 11:22:46,530 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-13 11:22:46,531 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":{"job":[{"created_by_username":"john_doe","updated_by_username":"jane_smith","job_type_nm":"ingestion","job_id":1,"job_nm":"ms sql to snowflake ingestion job","description":"my ms sql to snowflake ingestion job description","job_type_id":1,"created_by":1,"updated_by":2,"version":"","schedule":"","created_ts":"2025-04-09T12:01:37.569Z","updated_ts":"2025-04-09T12:01:37.569Z","load_type_id":null}],"jobKv":{"Source Database":"Microsoft SQL Server","Target Database":"Snowflake","LoadType":"append"},"tasks":[{"task_id":1,"job_id":1,"src_connection_id":1,"tgt_connection_id":3,"task_nm":"users","src_database":"datom_mvp","tgt_database":"DATOM_DEMO","src_schema":"core","tgt_schema":"CORE","src_table":"users","tgt_table":"users","src_location":null,"tgt_location":null,"created_by":1,"updated_by":1,"is_enabled":true,"created_ts":"2025-04-09T12:01:37.863Z","updated_ts":"2025-04-09T12:01:37.863Z"}]}}
+2025-05-13 11:22:46,531 - logs.logger - INFO - 'created_by' key found in the response.
+2025-05-13 11:22:46,531 - logs.logger - INFO - Verified 'job_type_nm' key value is 'ingestion'.
+2025-05-13 11:22:46,532 - logs.logger - INFO - Completed test: test_get_job_by_id
+2025-05-13 11:30:52,762 - logs.logger - DEBUG - This is a debug message
+2025-05-13 11:30:52,762 - logs.logger - INFO - This is an info message
+2025-05-13 11:30:52,763 - logs.logger - WARNING - This is a warning message
+2025-05-13 11:30:52,763 - logs.logger - ERROR - This is an error message
+2025-05-13 11:30:52,763 - logs.logger - CRITICAL - This is a critical message
+2025-05-13 11:30:52,970 - logs.logger - ERROR - Test failed due to assertion error: Expected 200, got 404
+2025-05-13 11:33:38,550 - logs.logger - DEBUG - This is a debug message
+2025-05-13 11:33:38,550 - logs.logger - INFO - This is an info message
+2025-05-13 11:33:38,550 - logs.logger - WARNING - This is a warning message
+2025-05-13 11:33:38,550 - logs.logger - ERROR - This is an error message
+2025-05-13 11:33:38,550 - logs.logger - CRITICAL - This is a critical message
+2025-05-13 11:33:38,646 - logs.logger - ERROR - Test failed due to assertion error: Expected 200, got 404
+2025-05-13 11:36:40,352 - logs.logger - DEBUG - This is a debug message
+2025-05-13 11:36:40,352 - logs.logger - INFO - This is an info message
+2025-05-13 11:36:40,353 - logs.logger - WARNING - This is a warning message
+2025-05-13 11:36:40,353 - logs.logger - ERROR - This is an error message
+2025-05-13 11:36:40,353 - logs.logger - CRITICAL - This is a critical message
+2025-05-13 11:36:40,671 - logs.logger - ERROR - Test failed due to assertion error: Expected 200, got 404
+2025-05-13 11:46:21,805 - logs.logger - DEBUG - This is a debug message
+2025-05-13 11:46:21,805 - logs.logger - INFO - This is an info message
+2025-05-13 11:46:21,805 - logs.logger - WARNING - This is a warning message
+2025-05-13 11:46:21,805 - logs.logger - ERROR - This is an error message
+2025-05-13 11:46:21,805 - logs.logger - CRITICAL - This is a critical message
+2025-05-13 11:46:21,896 - logs.logger - ERROR - Test failed due to assertion error: Expected 200, got 404
+2025-05-13 11:49:18,359 - logs.logger - DEBUG - This is a debug message
+2025-05-13 11:49:18,359 - logs.logger - INFO - This is an info message
+2025-05-13 11:49:18,359 - logs.logger - WARNING - This is a warning message
+2025-05-13 11:49:18,360 - logs.logger - ERROR - This is an error message
+2025-05-13 11:49:18,360 - logs.logger - CRITICAL - This is a critical message
+2025-05-13 11:49:18,500 - logs.logger - INFO - API call to https://datom.stryv.ai/interaction-manager/api/v1user/login successful.
+2025-05-13 11:49:18,500 - logs.logger - DEBUG - Response status: 200, Body: {"message":"Request has been processed successfully.","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijp7InVzZXJfaWQiOiIxIiwidXNlcl9ubSI6ImpvaG5fZG9lIiwiZW1haWwiOiJqb2huLmRvZUBleGFtcGxlLmNvbSIsImZpcnN0X25tIjoiSm9obiIsImxhc3Rfbm0iOiJEb2UiLCJzdGF0dXMiOiJBY3RpdmUiLCJsYXN0X2xvZ2luIjoiMjAyNC0wMy0wMVQxMDowMDowMC4wMDBaIiwiY3JlYXRlZF90cyI6IjIwMjQtMDItMDFUMTI6MDA6MDAuMDAwWiIsInVwZGF0ZWRfdHMiOiIyMDI0LTAzLTAxVDEwOjAwOjAwLjAwMFoiLCJkZWxldGVfaW5kIjoiTiIsInBhc3N3b3JkIjoid2VsY29tZTIwMjQifSwiaWF0IjoxNzQ3MTE3MTgwLCJleHAiOjE3NDcyMDM1ODB9.3b4yQdAne3YsMzlOTBlNDHvjvM4sg2g1HOZwDhKUHyU","user":{"user_id":"1","user_nm":"john_doe","email":"john.doe@example.com","first_nm":"John","last_nm":"Doe","status":"Active","last_login":"2024-03-01T10:00:00.000Z","created_ts":"2024-02-01T12:00:00.000Z","updated_ts":"2024-03-01T10:00:00.000Z","delete_ind":"N","password":"welcome2024"}}}
+2025-05-13 11:50:21,321 - logs.logger - DEBUG - This is a debug message
+2025-05-13 11:50:21,321 - logs.logger - INFO - This is an info message
+2025-05-13 11:50:21,321 - logs.logger - WARNING - This is a warning message
+2025-05-13 11:50:21,321 - logs.logger - ERROR - This is an error message
+2025-05-13 11:50:21,321 - logs.logger - CRITICAL - This is a critical message
+2025-05-13 11:50:21,494 - logs.logger - INFO - API call to https://datom.stryv.ai/interaction-manager/api/v1user/login successful.
+2025-05-13 11:50:21,494 - logs.logger - DEBUG - Response status: 200, Body: {"message":"Request has been processed successfully.","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijp7InVzZXJfaWQiOiIxIiwidXNlcl9ubSI6ImpvaG5fZG9lIiwiZW1haWwiOiJqb2huLmRvZUBleGFtcGxlLmNvbSIsImZpcnN0X25tIjoiSm9obiIsImxhc3Rfbm0iOiJEb2UiLCJzdGF0dXMiOiJBY3RpdmUiLCJsYXN0X2xvZ2luIjoiMjAyNC0wMy0wMVQxMDowMDowMC4wMDBaIiwiY3JlYXRlZF90cyI6IjIwMjQtMDItMDFUMTI6MDA6MDAuMDAwWiIsInVwZGF0ZWRfdHMiOiIyMDI0LTAzLTAxVDEwOjAwOjAwLjAwMFoiLCJkZWxldGVfaW5kIjoiTiIsInBhc3N3b3JkIjoid2VsY29tZTIwMjQifSwiaWF0IjoxNzQ3MTE3MjQzLCJleHAiOjE3NDcyMDM2NDN9.dvYbjCN79s44fxulz6nnmq8hHFcterIQq-IYJN-xje8","user":{"user_id":"1","user_nm":"john_doe","email":"john.doe@example.com","first_nm":"John","last_nm":"Doe","status":"Active","last_login":"2024-03-01T10:00:00.000Z","created_ts":"2024-02-01T12:00:00.000Z","updated_ts":"2024-03-01T10:00:00.000Z","delete_ind":"N","password":"welcome2024"}}}
+2025-05-14 12:23:15,368 - logs.logger - DEBUG - This is a debug message
+2025-05-14 12:23:15,369 - logs.logger - INFO - This is an info message
+2025-05-14 12:23:15,369 - logs.logger - WARNING - This is a warning message
+2025-05-14 12:23:15,369 - logs.logger - ERROR - This is an error message
+2025-05-14 12:23:15,369 - logs.logger - CRITICAL - This is a critical message
+2025-05-14 12:23:15,389 - logs.logger - INFO - Starting test: test_get_job_by_id
+2025-05-14 12:23:15,548 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-14 12:23:15,548 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":{"job":[],"jobKv":{},"tasks":[]}}
+2025-05-14 12:23:15,548 - logs.logger - ERROR - Test failed due to assertion error: Key 'created_by' not found in the response JSON.
+2025-05-14 12:31:09,348 - logs.logger - DEBUG - This is a debug message
+2025-05-14 12:31:09,348 - logs.logger - INFO - This is an info message
+2025-05-14 12:31:09,349 - logs.logger - WARNING - This is a warning message
+2025-05-14 12:31:09,349 - logs.logger - ERROR - This is an error message
+2025-05-14 12:31:09,350 - logs.logger - CRITICAL - This is a critical message
+2025-05-14 12:31:09,380 - logs.logger - INFO - Starting test: test_get_job_by_id
+2025-05-14 12:31:09,546 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-14 12:31:09,546 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":{"job":[],"jobKv":{},"tasks":[]}}
+2025-05-14 12:31:09,546 - logs.logger - ERROR - Test failed due to assertion error: Key 'created_by' not found in the response JSON.
+2025-05-14 14:36:46,558 - logs.logger - DEBUG - This is a debug message
+2025-05-14 14:36:46,558 - logs.logger - INFO - This is an info message
+2025-05-14 14:36:46,559 - logs.logger - WARNING - This is a warning message
+2025-05-14 14:36:46,559 - logs.logger - ERROR - This is an error message
+2025-05-14 14:36:46,559 - logs.logger - CRITICAL - This is a critical message
+2025-05-14 14:36:46,572 - logs.logger - INFO - Starting test: test_get_job_by_id
+2025-05-14 14:36:46,706 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-14 14:36:46,706 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":{"job":[],"jobKv":{},"tasks":[]}}
+2025-05-14 14:36:46,706 - logs.logger - ERROR - Test failed due to assertion error: Key 'created_by' not found in the response JSON.
+2025-05-14 14:37:16,658 - logs.logger - DEBUG - This is a debug message
+2025-05-14 14:37:16,658 - logs.logger - INFO - This is an info message
+2025-05-14 14:37:16,659 - logs.logger - WARNING - This is a warning message
+2025-05-14 14:37:16,659 - logs.logger - ERROR - This is an error message
+2025-05-14 14:37:16,659 - logs.logger - CRITICAL - This is a critical message
+2025-05-14 14:37:16,672 - logs.logger - INFO - Starting test: test_get_job_by_id
+2025-05-14 14:37:16,865 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-14 14:37:16,865 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":{"job":[],"jobKv":{},"tasks":[]}}
+2025-05-14 14:37:16,865 - logs.logger - ERROR - Test failed due to assertion error: Key 'created_by' not found in the response JSON.
+2025-05-14 14:37:32,080 - logs.logger - DEBUG - This is a debug message
+2025-05-14 14:37:32,080 - logs.logger - INFO - This is an info message
+2025-05-14 14:37:32,080 - logs.logger - WARNING - This is a warning message
+2025-05-14 14:37:32,080 - logs.logger - ERROR - This is an error message
+2025-05-14 14:37:32,080 - logs.logger - CRITICAL - This is a critical message
+2025-05-14 14:37:32,091 - logs.logger - INFO - Starting test: test_get_job_by_id
+2025-05-14 14:37:32,233 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-14 14:37:32,234 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":{"job":[],"jobKv":{},"tasks":[]}}
+2025-05-14 14:37:32,234 - logs.logger - ERROR - Test failed due to assertion error: Key 'created_by' not found in the response JSON.
+2025-05-14 15:07:13,000 - logs.logger - DEBUG - This is a debug message
+2025-05-14 15:07:13,000 - logs.logger - INFO - This is an info message
+2025-05-14 15:07:13,000 - logs.logger - WARNING - This is a warning message
+2025-05-14 15:07:13,000 - logs.logger - ERROR - This is an error message
+2025-05-14 15:07:13,000 - logs.logger - CRITICAL - This is a critical message
+2025-05-14 15:07:13,190 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-14 15:07:13,191 - logs.logger - INFO - 'status' key found in the response.
+2025-05-14 15:07:13,191 - logs.logger - INFO - Verified 'name' key value is 'Snowflake Connection -Test'.
+2025-05-14 16:25:33,795 - logs.logger - DEBUG - This is a debug message
+2025-05-14 16:25:33,795 - logs.logger - INFO - This is an info message
+2025-05-14 16:25:33,795 - logs.logger - WARNING - This is a warning message
+2025-05-14 16:25:33,795 - logs.logger - ERROR - This is an error message
+2025-05-14 16:25:33,795 - logs.logger - CRITICAL - This is a critical message
+2025-05-14 16:25:34,279 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-14 16:25:34,279 - logs.logger - INFO - 'status' key found in the response.
+2025-05-14 16:25:34,279 - logs.logger - INFO - Verified 'name' key value is 'Snowflake Connection -Test'.
+2025-05-19 11:30:28,726 - logs.logger - DEBUG - This is a debug message
+2025-05-19 11:30:28,726 - logs.logger - INFO - This is an info message
+2025-05-19 11:30:28,726 - logs.logger - WARNING - This is a warning message
+2025-05-19 11:30:28,726 - logs.logger - ERROR - This is an error message
+2025-05-19 11:30:28,726 - logs.logger - CRITICAL - This is a critical message
+2025-05-19 12:38:17,089 - logs.logger - DEBUG - This is a debug message
+2025-05-19 12:38:17,089 - logs.logger - INFO - This is an info message
+2025-05-19 12:38:17,089 - logs.logger - WARNING - This is a warning message
+2025-05-19 12:38:17,090 - logs.logger - ERROR - This is an error message
+2025-05-19 12:38:17,090 - logs.logger - CRITICAL - This is a critical message
+2025-05-19 12:38:17,342 - logs.logger - INFO - API call to https://datom.stryv.ai/interaction-manager/api/v1/user/login successful.
+2025-05-19 12:38:17,342 - logs.logger - DEBUG - Response status: 200, Body: {"message":"Request has been processed successfully.","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijp7InVzZXJfaWQiOiIxIiwidXNlcl9ubSI6ImpvaG5fZG9lIiwiZW1haWwiOiJqb2huLmRvZUBleGFtcGxlLmNvbSIsImZpcnN0X25tIjoiSm9obiIsImxhc3Rfbm0iOiJEb2UiLCJzdGF0dXMiOiJBY3RpdmUiLCJsYXN0X2xvZ2luIjoiMjAyNC0wMy0wMVQxMDowMDowMC4wMDBaIiwiY3JlYXRlZF90cyI6IjIwMjQtMDItMDFUMTI6MDA6MDAuMDAwWiIsInVwZGF0ZWRfdHMiOiIyMDI0LTAzLTAxVDEwOjAwOjAwLjAwMFoiLCJkZWxldGVfaW5kIjoiTiIsInBhc3N3b3JkIjoid2VsY29tZTIwMjQifSwiaWF0IjoxNzQ3NjM4NTI0LCJleHAiOjE3NDc3MjQ5MjR9.0KkOMPBS0fKMKmga1-aSAqhOFEC8H-83tjNwKyrKUIw","user":{"user_id":"1","user_nm":"john_doe","email":"john.doe@example.com","first_nm":"John","last_nm":"Doe","status":"Active","last_login":"2024-03-01T10:00:00.000Z","created_ts":"2024-02-01T12:00:00.000Z","updated_ts":"2024-03-01T10:00:00.000Z","delete_ind":"N","password":"welcome2024"}}}

@@ -4,6 +4,7 @@
 # Desc:  Asserts the status code
 ############################################################
 def assert_status_code(response, expected):
+    print(response.status_code)
     assert response.status_code == expected, f"Expected {expected}, got {response.status_code}"
 
 
