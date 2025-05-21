@@ -2,7 +2,7 @@ name: Run API Tests and Send Email Report
 
 on:
   schedule:
-    - cron: '50 13 * * *'  # Runs daily at 1:50 PM UTC (7:20 PM IST)
+    - cron: '30 5 * * *'  # Runs daily at 1:50 PM UTC (7:20 PM IST)
   push:
     branches:
       - main
