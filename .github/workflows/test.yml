@@ -28,4 +28,4 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run API Test Runner
-      run: python test_api_runner.pyy
+      run: python test_api_runner.py
