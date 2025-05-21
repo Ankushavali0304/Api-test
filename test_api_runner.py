@@ -35,12 +35,11 @@ def fixture_clients():
 
 
 def run_test_func(test_func, fixture_clients):
-    module_name = test_func.__module__
-    if module_name.endswith('.run'):
-        module_name = module_name.rsplit('.run', 1)[0]
-
+    test_case_name = f"{test_func.__module__}.{test_func.__name__}"
+    if test_case_name.endswith(".run"):
+        test_case_name = test_case_name.rsplit(".run", 1)[0]
     result = {
-        "test_case": f"{test_func.module_name}.{test_func.__name__}",
+        "test_case": test_case_name,
         "status_code": "N/A",
         "result": "PASS",
         "response": "N/A",
@@ -110,7 +109,7 @@ def test_run(test_func, fixture_clients):
     result = run_test_func(test_func, fixture_clients)
     test_results.append(result)
 
-    with open("../test_results.json", "w") as f:
+    with open("test_results.json", "w") as f:
         json.dump(test_results, f, indent=2)
 
     assert result["result"] == "PASS", (
@@ -139,7 +138,7 @@ def main():
 
     # Load test results for the email body
     try:
-        with open("../test_results.json", "r") as f:
+        with open("test_results.json", "r") as f:
             saved_results = json.load(f)
     except Exception as e:
         print("Could not load test results:", str(e))

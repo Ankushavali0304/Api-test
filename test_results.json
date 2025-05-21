@@ -1,12 +1,12 @@
 [
   {
-    "test_case": "tests.test_user_login.run",
+    "test_case": "tests.test_user_login",
     "status_code": 200,
     "result": "PASS",
     "response": {
       "message": "Request has been processed successfully.",
       "data": {
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijp7InVzZXJfaWQiOiIxIiwidXNlcl9ubSI6ImpvaG5fZG9lIiwiZW1haWwiOiJqb2huLmRvZUBleGFtcGxlLmNvbSIsImZpcnN0X25tIjoiSm9obiIsImxhc3Rfbm0iOiJEb2UiLCJzdGF0dXMiOiJBY3RpdmUiLCJsYXN0X2xvZ2luIjoiMjAyNC0wMy0wMVQxMDowMDowMC4wMDBaIiwiY3JlYXRlZF90cyI6IjIwMjQtMDItMDFUMTI6MDA6MDAuMDAwWiIsInVwZGF0ZWRfdHMiOiIyMDI0LTAzLTAxVDEwOjAwOjAwLjAwMFoiLCJkZWxldGVfaW5kIjoiTiIsInBhc3N3b3JkIjoid2VsY29tZTIwMjQifSwiaWF0IjoxNzQ3NjUxMTkyLCJleHAiOjE3NDc3Mzc1OTJ9.6_x3swDz5E3wuguapwgD1nMgfyTQp2cDCzr7P8UieA0",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijp7InVzZXJfaWQiOiIxIiwidXNlcl9ubSI6ImpvaG5fZG9lIiwiZW1haWwiOiJqb2huLmRvZUBleGFtcGxlLmNvbSIsImZpcnN0X25tIjoiSm9obiIsImxhc3Rfbm0iOiJEb2UiLCJzdGF0dXMiOiJBY3RpdmUiLCJsYXN0X2xvZ2luIjoiMjAyNC0wMy0wMVQxMDowMDowMC4wMDBaIiwiY3JlYXRlZF90cyI6IjIwMjQtMDItMDFUMTI6MDA6MDAuMDAwWiIsInVwZGF0ZWRfdHMiOiIyMDI0LTAzLTAxVDEwOjAwOjAwLjAwMFoiLCJkZWxldGVfaW5kIjoiTiIsInBhc3N3b3JkIjoid2VsY29tZTIwMjQifSwiaWF0IjoxNzQ3ODExNjEwLCJleHAiOjE3NDc4OTgwMTB9.-MWDwvZ91ADQcMo1vyxgaxXwP15zgW1tFWDDqqaxpkw",
         "user": {
           "user_id": "1",
           "user_nm": "john_doe",
@@ -26,7 +26,7 @@
     "error_message": null
   },
   {
-    "test_case": "tests.design_manager.test_by_job_id.run",
+    "test_case": "tests.design_manager.test_by_job_id",
     "status_code": 200,
     "result": "FAIL",
     "response": {
@@ -41,7 +41,7 @@
     "error_message": "Key 'created_by' not found in the response JSON."
   },
   {
-    "test_case": "tests.design_manager.test_by_task_id.run",
+    "test_case": "tests.design_manager.test_by_task_id",
     "status_code": 200,
     "result": "FAIL",
     "response": {
@@ -52,7 +52,7 @@
     "error_message": "Key 'created_by' not found in the response JSON."
   },
   {
-    "test_case": "tests.design_manager.test_connection.run",
+    "test_case": "tests.design_manager.test_connection",
     "status_code": 200,
     "result": "PASS",
     "response": {
