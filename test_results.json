@@ -6,7 +6,7 @@
     "response": {
       "message": "Request has been processed successfully.",
       "data": {
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijp7InVzZXJfaWQiOiIxIiwidXNlcl9ubSI6ImpvaG5fZG9lIiwiZW1haWwiOiJqb2huLmRvZUBleGFtcGxlLmNvbSIsImZpcnN0X25tIjoiSm9obiIsImxhc3Rfbm0iOiJEb2UiLCJzdGF0dXMiOiJBY3RpdmUiLCJsYXN0X2xvZ2luIjoiMjAyNC0wMy0wMVQxMDowMDowMC4wMDBaIiwiY3JlYXRlZF90cyI6IjIwMjQtMDItMDFUMTI6MDA6MDAuMDAwWiIsInVwZGF0ZWRfdHMiOiIyMDI0LTAzLTAxVDEwOjAwOjAwLjAwMFoiLCJkZWxldGVfaW5kIjoiTiIsInBhc3N3b3JkIjoid2VsY29tZTIwMjQifSwiaWF0IjoxNzQ3NjQ5MDM4LCJleHAiOjE3NDc3MzU0Mzh9.RdADulRgZraE_dED-iHLiAKh6VGk9EBKZsFQDa23Y_s",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijp7InVzZXJfaWQiOiIxIiwidXNlcl9ubSI6ImpvaG5fZG9lIiwiZW1haWwiOiJqb2huLmRvZUBleGFtcGxlLmNvbSIsImZpcnN0X25tIjoiSm9obiIsImxhc3Rfbm0iOiJEb2UiLCJzdGF0dXMiOiJBY3RpdmUiLCJsYXN0X2xvZ2luIjoiMjAyNC0wMy0wMVQxMDowMDowMC4wMDBaIiwiY3JlYXRlZF90cyI6IjIwMjQtMDItMDFUMTI6MDA6MDAuMDAwWiIsInVwZGF0ZWRfdHMiOiIyMDI0LTAzLTAxVDEwOjAwOjAwLjAwMFoiLCJkZWxldGVfaW5kIjoiTiIsInBhc3N3b3JkIjoid2VsY29tZTIwMjQifSwiaWF0IjoxNzQ3NjUxMTkyLCJleHAiOjE3NDc3Mzc1OTJ9.6_x3swDz5E3wuguapwgD1nMgfyTQp2cDCzr7P8UieA0",
         "user": {
           "user_id": "1",
           "user_nm": "john_doe",

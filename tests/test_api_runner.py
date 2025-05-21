@@ -110,7 +110,7 @@ def test_run(test_func, fixture_clients):
     result = run_test_func(test_func, fixture_clients)
     test_results.append(result)
 
-    with open("test_results.json", "w") as f:
+    with open("../test_results.json", "w") as f:
         json.dump(test_results, f, indent=2)
 
     assert result["result"] == "PASS", (
@@ -139,7 +139,7 @@ def main():
 
     # Load test results for the email body
     try:
-        with open("test_results.json", "r") as f:
+        with open("../test_results.json", "r") as f:
             saved_results = json.load(f)
     except Exception as e:
         print("Could not load test results:", str(e))

@@ -1939,3 +1939,60 @@
 2025-05-19 15:33:31,758 - logs.logger - INFO - Status code is 200 as expected.
 2025-05-19 15:33:31,759 - logs.logger - INFO - 'status' key found in the response.
 2025-05-19 15:33:31,759 - logs.logger - INFO - Verified 'name' key value is 'Snowflake Connection -Test'.
+2025-05-19 16:02:07,715 - logs.logger - DEBUG - This is a debug message
+2025-05-19 16:02:07,715 - logs.logger - INFO - This is an info message
+2025-05-19 16:02:07,715 - logs.logger - WARNING - This is a warning message
+2025-05-19 16:02:07,715 - logs.logger - ERROR - This is an error message
+2025-05-19 16:02:07,716 - logs.logger - CRITICAL - This is a critical message
+2025-05-19 16:02:08,506 - logs.logger - INFO - API call to https://datom.stryv.ai/interaction-manager/api/v1/user/login successful.
+2025-05-19 16:02:08,507 - logs.logger - DEBUG - Response status: 200, Body: {"message":"Request has been processed successfully.","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijp7InVzZXJfaWQiOiIxIiwidXNlcl9ubSI6ImpvaG5fZG9lIiwiZW1haWwiOiJqb2huLmRvZUBleGFtcGxlLmNvbSIsImZpcnN0X25tIjoiSm9obiIsImxhc3Rfbm0iOiJEb2UiLCJzdGF0dXMiOiJBY3RpdmUiLCJsYXN0X2xvZ2luIjoiMjAyNC0wMy0wMVQxMDowMDowMC4wMDBaIiwiY3JlYXRlZF90cyI6IjIwMjQtMDItMDFUMTI6MDA6MDAuMDAwWiIsInVwZGF0ZWRfdHMiOiIyMDI0LTAzLTAxVDEwOjAwOjAwLjAwMFoiLCJkZWxldGVfaW5kIjoiTiIsInBhc3N3b3JkIjoid2VsY29tZTIwMjQifSwiaWF0IjoxNzQ3NjUwNzU1LCJleHAiOjE3NDc3MzcxNTV9.ogdVe72xoFYOt3gT7VivsBA5C0UyHa-oxqOlCoQBMWY","user":{"user_id":"1","user_nm":"john_doe","email":"john.doe@example.com","first_nm":"John","last_nm":"Doe","status":"Active","last_login":"2024-03-01T10:00:00.000Z","created_ts":"2024-02-01T12:00:00.000Z","updated_ts":"2024-03-01T10:00:00.000Z","delete_ind":"N","password":"welcome2024"}}}
+2025-05-19 16:02:08,523 - logs.logger - INFO - Starting test: test_get_job_by_id
+2025-05-19 16:02:08,622 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-19 16:02:08,622 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":{"job":[],"jobKv":{},"tasks":[]}}
+2025-05-19 16:02:08,623 - logs.logger - ERROR - Test failed due to assertion error: Key 'created_by' not found in the response JSON.
+2025-05-19 16:02:08,623 - logs.logger - INFO - Completed test: test_get_job_by_id
+2025-05-19 16:02:08,779 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-19 16:02:08,779 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":[]}
+2025-05-19 16:02:08,780 - logs.logger - ERROR - Test failed due to assertion error: Key 'created_by' not found in the response JSON.
+2025-05-19 16:02:08,780 - logs.logger - INFO - Completed test: test_by_task_id
+2025-05-19 16:02:08,846 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-19 16:02:08,847 - logs.logger - INFO - 'status' key found in the response.
+2025-05-19 16:02:08,847 - logs.logger - INFO - Verified 'name' key value is 'Snowflake Connection -Test'.
+2025-05-19 16:04:43,116 - logs.logger - DEBUG - This is a debug message
+2025-05-19 16:04:43,116 - logs.logger - INFO - This is an info message
+2025-05-19 16:04:43,117 - logs.logger - WARNING - This is a warning message
+2025-05-19 16:04:43,117 - logs.logger - ERROR - This is an error message
+2025-05-19 16:04:43,117 - logs.logger - CRITICAL - This is a critical message
+2025-05-19 16:04:43,913 - logs.logger - INFO - API call to https://datom.stryv.ai/interaction-manager/api/v1/user/login successful.
+2025-05-19 16:04:43,914 - logs.logger - DEBUG - Response status: 200, Body: {"message":"Request has been processed successfully.","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijp7InVzZXJfaWQiOiIxIiwidXNlcl9ubSI6ImpvaG5fZG9lIiwiZW1haWwiOiJqb2huLmRvZUBleGFtcGxlLmNvbSIsImZpcnN0X25tIjoiSm9obiIsImxhc3Rfbm0iOiJEb2UiLCJzdGF0dXMiOiJBY3RpdmUiLCJsYXN0X2xvZ2luIjoiMjAyNC0wMy0wMVQxMDowMDowMC4wMDBaIiwiY3JlYXRlZF90cyI6IjIwMjQtMDItMDFUMTI6MDA6MDAuMDAwWiIsInVwZGF0ZWRfdHMiOiIyMDI0LTAzLTAxVDEwOjAwOjAwLjAwMFoiLCJkZWxldGVfaW5kIjoiTiIsInBhc3N3b3JkIjoid2VsY29tZTIwMjQifSwiaWF0IjoxNzQ3NjUwOTExLCJleHAiOjE3NDc3MzczMTF9.A-crA4uRlm_szIgy1V7Vg6E5dKWhk2rhBHsACW40bDQ","user":{"user_id":"1","user_nm":"john_doe","email":"john.doe@example.com","first_nm":"John","last_nm":"Doe","status":"Active","last_login":"2024-03-01T10:00:00.000Z","created_ts":"2024-02-01T12:00:00.000Z","updated_ts":"2024-03-01T10:00:00.000Z","delete_ind":"N","password":"welcome2024"}}}
+2025-05-19 16:04:43,928 - logs.logger - INFO - Starting test: test_get_job_by_id
+2025-05-19 16:04:44,043 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-19 16:04:44,044 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":{"job":[],"jobKv":{},"tasks":[]}}
+2025-05-19 16:04:44,044 - logs.logger - ERROR - Test failed due to assertion error: Key 'created_by' not found in the response JSON.
+2025-05-19 16:04:44,045 - logs.logger - INFO - Completed test: test_get_job_by_id
+2025-05-19 16:04:44,268 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-19 16:04:44,269 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":[]}
+2025-05-19 16:04:44,269 - logs.logger - ERROR - Test failed due to assertion error: Key 'created_by' not found in the response JSON.
+2025-05-19 16:04:44,269 - logs.logger - INFO - Completed test: test_by_task_id
+2025-05-19 16:04:44,345 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-19 16:04:44,345 - logs.logger - INFO - 'status' key found in the response.
+2025-05-19 16:04:44,345 - logs.logger - INFO - Verified 'name' key value is 'Snowflake Connection -Test'.
+2025-05-19 16:09:23,852 - logs.logger - DEBUG - This is a debug message
+2025-05-19 16:09:23,852 - logs.logger - INFO - This is an info message
+2025-05-19 16:09:23,853 - logs.logger - WARNING - This is a warning message
+2025-05-19 16:09:23,853 - logs.logger - ERROR - This is an error message
+2025-05-19 16:09:23,853 - logs.logger - CRITICAL - This is a critical message
+2025-05-19 16:09:25,310 - logs.logger - INFO - API call to https://datom.stryv.ai/interaction-manager/api/v1/user/login successful.
+2025-05-19 16:09:25,311 - logs.logger - DEBUG - Response status: 200, Body: {"message":"Request has been processed successfully.","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijp7InVzZXJfaWQiOiIxIiwidXNlcl9ubSI6ImpvaG5fZG9lIiwiZW1haWwiOiJqb2huLmRvZUBleGFtcGxlLmNvbSIsImZpcnN0X25tIjoiSm9obiIsImxhc3Rfbm0iOiJEb2UiLCJzdGF0dXMiOiJBY3RpdmUiLCJsYXN0X2xvZ2luIjoiMjAyNC0wMy0wMVQxMDowMDowMC4wMDBaIiwiY3JlYXRlZF90cyI6IjIwMjQtMDItMDFUMTI6MDA6MDAuMDAwWiIsInVwZGF0ZWRfdHMiOiIyMDI0LTAzLTAxVDEwOjAwOjAwLjAwMFoiLCJkZWxldGVfaW5kIjoiTiIsInBhc3N3b3JkIjoid2VsY29tZTIwMjQifSwiaWF0IjoxNzQ3NjUxMTkyLCJleHAiOjE3NDc3Mzc1OTJ9.6_x3swDz5E3wuguapwgD1nMgfyTQp2cDCzr7P8UieA0","user":{"user_id":"1","user_nm":"john_doe","email":"john.doe@example.com","first_nm":"John","last_nm":"Doe","status":"Active","last_login":"2024-03-01T10:00:00.000Z","created_ts":"2024-02-01T12:00:00.000Z","updated_ts":"2024-03-01T10:00:00.000Z","delete_ind":"N","password":"welcome2024"}}}
+2025-05-19 16:09:25,327 - logs.logger - INFO - Starting test: test_get_job_by_id
+2025-05-19 16:09:25,437 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-19 16:09:25,438 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":{"job":[],"jobKv":{},"tasks":[]}}
+2025-05-19 16:09:25,438 - logs.logger - ERROR - Test failed due to assertion error: Key 'created_by' not found in the response JSON.
+2025-05-19 16:09:25,440 - logs.logger - INFO - Completed test: test_get_job_by_id
+2025-05-19 16:09:25,610 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-19 16:09:25,611 - logs.logger - DEBUG - Received response: 200 - {"message":"Request has been processed successfully.","data":[]}
+2025-05-19 16:09:25,611 - logs.logger - ERROR - Test failed due to assertion error: Key 'created_by' not found in the response JSON.
+2025-05-19 16:09:25,611 - logs.logger - INFO - Completed test: test_by_task_id
+2025-05-19 16:09:25,676 - logs.logger - INFO - Status code is 200 as expected.
+2025-05-19 16:09:25,677 - logs.logger - INFO - 'status' key found in the response.
+2025-05-19 16:09:25,678 - logs.logger - INFO - Verified 'name' key value is 'Snowflake Connection -Test'.
