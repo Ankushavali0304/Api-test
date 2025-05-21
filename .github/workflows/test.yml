@@ -30,7 +30,7 @@ jobs:
     - name: Run API tests and generate report
       run: |
         export PYTHONPATH="${PYTHONPATH}:$(pwd)"
-        python path/to/your_main_test_script.py  # replace with the actual path, e.g., `tests/test_main.py`
+        python tests/test_api_runner.py  # replace with the actual path, e.g., `tests/test_main.py`
 
     - name: Upload JSON Report
       uses: actions/upload-artifact@v4
