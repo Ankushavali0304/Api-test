@@ -27,6 +27,6 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Run API Test Runner (includes report + email)
+    - name: Run API Test Runner (includes HTML + email)
       run: |
-        python api_test_runner.py  # Assuming this is your main test runner file
+        python ./api_test_runner.py
